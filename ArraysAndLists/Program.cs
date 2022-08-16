@@ -26,15 +26,15 @@ namespace ArraysAndLists
              * Then add those numbers to either the evens List
              * or the odds List
              */
-            foreach (var num in numbers)
+            foreach (var item in numbers)
             {
-                if (num % 2 == 0)
+                if (item % 2 == 0)
                 {
-                    even.Add(num) ;
+                    even.Add(item) ;
                 }
                 else
                 {
-                    odd.Add(num);
+                    odd.Add(item);
                 }
             }
 
